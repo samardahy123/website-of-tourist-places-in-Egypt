@@ -1,0 +1,114 @@
+body{ 
+    background-color:white;
+   
+}
+.info{
+    font-size: 50px;
+    font-family: cursive;
+    color: 	#e2d997;
+    font-style: italic;  
+    background-color: brown;    
+
+} 
+.testmonials{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    
+    
+} 
+.testmonials h1{
+    font-weight: bold; 
+    margin-bottom: 20px;
+} 
+.testmonials lead {
+    line-height: 2em; 
+    margin-bottom: 10px;
+} 
+.testmonials span {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+} 
+.testmonials .carousel-inner{
+    min-height:300px;
+}
+ .testmonials .carousel-indicators{ 
+     position: static; 
+     width: 100%; 
+     margin-left: auto;
+     padding-top: 20px;
+    
+    
+}  
+
+  .carousel-indicators li{ 
+      text-indent: 0;
+    height: 80px;
+      width: 80px;
+       border:1px solid black;
+    
+}
+.carousel-indicators .active{
+  height: 80px;
+      width:80px;
+
+   
+}
+.carousel-indicators li img{
+    max-height: 100%;
+} 
+ol{ 
+    font-size: 20px;
+    color: blue;
+    direction:rtl;
+} 
+il{
+    direction:ltr;
+}
+h3{
+    font-weight: 700;
+}
+navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    color:dodgerblue;
+} 
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .lead
+{
+    color:black;
+font-size: 20px;
+    margin-top: 15px;
+} 
+.about h1 {
+   font-weight: bold; 
+    color: black; 
+   
+    font-style: italic;
+} 
+.about h2{
+    color: blue;
+} 
+.features{
+    background-color:black;
+    padding-top: 50PX;
+    padding-bottom: 50PX;
+} 
+.features .feat span.glyphicon{ 
+    font-size: 25px; 
+    margin-bottom: 10px; 
+    color: blue;
+    
+}
+.navbar-brand{
+    color: beige;
+    font-size: 50px; 
+    font-family: serif;
+    font-style: italic;
+}  
+span{
+    color: blue;
+    font-weight: bold;
+    font-size: 300px;
+}

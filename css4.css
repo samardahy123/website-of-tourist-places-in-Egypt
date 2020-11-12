@@ -1,0 +1,81 @@
+body {
+margin: 0;
+padding: 0;
+}
+.navbar{
+width: 100%;
+height: 50px;
+background: #360836;
+}
+.navbar ul{
+list-style:none;
+text-align:center;
+line-height:50px;
+}
+.navbar ul li{
+display: inline-block;
+
+}
+.navbar ul li a{
+color:#ffoo48;
+text-decoration:none;
+margin-left:15px;
+font-size:20px;
+}
+.navbar ul li a.active {
+color:#fff;
+}
+/***************** contact.html ********/
+.contact{
+width:100%;
+height:800px;
+text-align:center;
+padding-top:5%;
+background:url('coverPage2.PNG');
+background-size:cover;
+}
+.contact h2{
+margin:0;
+font-size:40px;
+font-style:italic;
+
+}
+.contact p{
+font-size:25px;
+}
+.contact .form {
+width:500px;
+height: 400px;
+margin:auto;
+
+}
+.contact .form  h2{
+color:#dfla5a;
+}
+.contact .form  input ,textarea {
+display :block;
+width:100%;
+height:35;
+border:0;
+margin-bottom:10px;
+background-color: azure;
+color:#000;
+padding-left:10px;
+}
+.contact .form  input[type=radio]{
+background: #DB7093;
+color:#fff;
+padding-left:10px;
+}
+textarea{
+height:100px;
+}
+.contact .form  input[type=submit]{
+float:right;
+border:0;
+background:black;
+padding:10px;
+cursor:pointer; 
+    color: aliceblue;
+
+}
